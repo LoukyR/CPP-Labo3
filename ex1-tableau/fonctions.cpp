@@ -34,6 +34,7 @@ void affichageResultats(int nb, float moyenne, int* tableauNb)
 	for (int i = 0; i < nb; i++)
 	{
 		ecart = moyenne - tableauNb[i];
-		cout << "L'écart entre la note " << (i+1) << " et la moyenne est " << ecart << endl;
+		cout << "L'écart entre la note " << (i + 1) << " et la moyenne est "
+				<< ecart << endl;
 	}
 }
